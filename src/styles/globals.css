@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter";
+}
+
+@media screen and (max-width: 739px) {
+  .text-title-5 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 740px) {
+  .text-title-5 {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .text-title-5 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1280px) {
+  .text-title-5 {
+    font-size: 48px;
+  }
+  .hero-left {
+    max-width: 0;
+  }
+}
+@media (min-width: 1980px) {
+  .text-title-5 {
+    font-size: 76px;
+  }
+}
+@media (min-width: 2560px) {
+  .text-title-5 {
+    font-size: 114px;
+  }
+}
+@media (min-width: 3840px) {
+  .text-title-5 {
+    font-size: 214px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-paraph-1 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1440px) {
+  .text-paraph-1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1920px) {
+  .text-paraph-1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 2560px) {
+  .text-paraph-1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 3840px) {
+  .text-paraph-1 {
+    font-size: 44px;
+  }
+}
